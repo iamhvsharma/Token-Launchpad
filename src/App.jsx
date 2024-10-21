@@ -1,11 +1,11 @@
 import './App.css'
 
+import { TokenLaunchpad } from './components/TokenLaunchpad'
+
 function App() {
-
-
   return (
   <div>
-    <h1>Hi there</h1>
+    <TokenLaunchpad></TokenLaunchpad>
   </div>
   )
 }
